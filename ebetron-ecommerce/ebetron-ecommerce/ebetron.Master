@@ -6,14 +6,37 @@
 <head runat="server">
     <title>Ebetron | Ecommerce</title>
     <link rel="stylesheet" href="Content/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="Web/ebetron/content/styles/global.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-
+    <section>
+        <ul class="nav global">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+    </section>
     <asp:ContentPlaceHolder ID="pageContent" runat="server">
     </asp:ContentPlaceHolder>
 
+    <section class="footer global">
+        <div class="container text-center">
+            <div class="row">
+                <h3>This is the footer.</h3>
+            </div>
+        </div>
+    </section>
     <script type="text/javascript" src="../Scripts/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../Scripts/bootstrap.min.js"></script>
     <asp:ContentPlaceHolder ID="pageScripts" runat="server">

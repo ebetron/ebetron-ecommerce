@@ -122,6 +122,7 @@
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="Web.config" />
+    <Content Include="Web\ebetron\content\styles\global.css" />
     <Content Include="Web\home.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -171,7 +172,6 @@
     <Folder Include="Web\ebetron\content\fonts\" />
     <Folder Include="Web\ebetron\content\images\" />
     <Folder Include="Web\ebetron\content\scripts\" />
-    <Folder Include="Web\ebetron\content\styles\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
