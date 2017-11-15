@@ -5,15 +5,18 @@
 <html>
 <head runat="server">
     <title>Ebetron | Ecommerce</title>
+    <link rel="stylesheet" href="Content/bootstrap.min.css" type="text/css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-    </form>
+
+    <asp:ContentPlaceHolder ID="pageContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript" src="../Scripts/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../Scripts/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="pageScripts" runat="server">
+    </asp:ContentPlaceHolder>
 </body>
 </html>
