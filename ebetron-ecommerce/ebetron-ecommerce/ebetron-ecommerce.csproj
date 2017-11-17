@@ -124,6 +124,7 @@
     <Content Include="Web.config" />
     <Content Include="Web\ebetron\content\fonts\open-iconic.svg" />
     <Content Include="Web\ebetron\content\styles\global.css" />
+    <Content Include="Web\ebetron\content\styles\home\home.css" />
     <Content Include="Web\ebetron\content\styles\open-iconic-bootstrap.min.css" />
     <Content Include="Web\home.aspx" />
     <Content Include="Web\ebetron\content\fonts\open-iconic.eot" />
