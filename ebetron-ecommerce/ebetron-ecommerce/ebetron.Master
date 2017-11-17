@@ -6,26 +6,31 @@
 <head runat="server">
     <title>Ebetron | Ecommerce</title>
     <link rel="stylesheet" href="Content/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="Web/ebetron/content/styles/open-iconic-bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="Web/ebetron/content/styles/global.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <section>
-        <ul class="nav global">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-        </ul>
+        <nav class="navbar global">
+            <a class="navbar-brand" href="/">E-Commerce by Ebetron</a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-info" href="#"><span class="oi oi-cart"></span>&nbsp;0 Items</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="user-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username</a>
+                    <div class="dropdown-menu" aria-labelledby="user-dropdown">
+                        <a class="dropdown-item" href="#">Account</a>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
     </section>
     <asp:ContentPlaceHolder ID="pageContent" runat="server">
     </asp:ContentPlaceHolder>
@@ -38,7 +43,7 @@
         </div>
     </section>
     <script type="text/javascript" src="../Scripts/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="../Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../Scripts/bootstrap.bundle.min.js"></script>
     <asp:ContentPlaceHolder ID="pageScripts" runat="server">
     </asp:ContentPlaceHolder>
 </body>

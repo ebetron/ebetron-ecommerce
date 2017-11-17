@@ -122,8 +122,14 @@
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="Web.config" />
+    <Content Include="Web\ebetron\content\fonts\open-iconic.svg" />
     <Content Include="Web\ebetron\content\styles\global.css" />
+    <Content Include="Web\ebetron\content\styles\open-iconic-bootstrap.min.css" />
     <Content Include="Web\home.aspx" />
+    <Content Include="Web\ebetron\content\fonts\open-iconic.eot" />
+    <Content Include="Web\ebetron\content\fonts\open-iconic.otf" />
+    <Content Include="Web\ebetron\content\fonts\open-iconic.ttf" />
+    <Content Include="Web\ebetron\content\fonts\open-iconic.woff" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
@@ -169,7 +175,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Web\ebetron\content\fonts\" />
     <Folder Include="Web\ebetron\content\images\" />
     <Folder Include="Web\ebetron\content\scripts\" />
   </ItemGroup>

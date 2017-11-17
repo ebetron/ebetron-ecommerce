@@ -1,8 +1,9 @@
 ﻿
-.nav.global{
+.navbar.global{
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #000000;
+    background-color: #000000;
+    color: #fff;
 }
 
 .footer{
