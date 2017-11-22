@@ -12,6 +12,14 @@ namespace ebetron_ecommerce
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            RegisterRoutes(RouteTable.Routes);
+        }
+
+        void RegisterRoutes(RouteCollection routes)
+        {
+            routes.RouteExistingFiles = true;
+
+            routes.MapPageRoute("home", "", "~/Web/home.aspx");
         }
     }
 }
